@@ -7,7 +7,7 @@ int main() {
     char ga,gb;
     cin >> a>>ga>>b>>gb;
 
-    if((a>=19&&ga=='M')||(b>=19&&gb=='W')) cout<<"1";
+    if((a>=19&&ga=='M')||(b>=19&&gb=='M')) cout<<"1";
     else cout<<"0";
     return 0;
 }
