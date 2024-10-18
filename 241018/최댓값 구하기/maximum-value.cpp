@@ -12,12 +12,12 @@ int main() {
         else if(a<=c) cout<<c;
     }
 
-    if(b>=a){
+    else if(b>=a){
         if(b>=c) cout<<b;
         else if(b<=c) cout<<c;
     }
 
-    if(a>=c){
+    else if(a>=c){
         if(a>=c) cout<<a;
         else if(a<=c) cout<<c;
     }
