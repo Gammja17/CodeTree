@@ -14,14 +14,14 @@ int main() {
         
     }
 
-    else if(b>a){
+    else{
         for(int i=b;i<=a; i++)
         {
         if(i%5==0) sum+=i;
         }
-        
     }
 
     cout<<sum;   
+
     return 0;
 }
