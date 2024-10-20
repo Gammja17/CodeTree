@@ -11,7 +11,7 @@ int main() {
         else if(i>=80) cout<<"B ";
         else if(i>=70) cout<<"C ";
         else if(i>=60) cout<<"D ";
-        else if(i>=50) cout<<"F ";
+        else cout<<"F ";
     }
     return 0;
 }
