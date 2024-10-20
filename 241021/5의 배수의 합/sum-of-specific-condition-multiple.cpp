@@ -6,7 +6,7 @@ int main() {
     int a,b,sum1=0,sum2=0;
     cin>>a>>b;
     
-    if(a>=b){
+    if(a>b){
         for(int i=a;i<=b; i++)
         {
         if(i%5==0) sum1+=i;
