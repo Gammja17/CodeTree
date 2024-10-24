@@ -8,9 +8,16 @@ int main() {
     cin>>a>>b;
     int prod=a;
 
-    for(int i=1; i<b; i++){
+    if(b==0) cout<<1;
+
+    else{
+        for(int i=1; i<b; i++){
         a=prod*a;
     }
+    }
+  
+
+    
 
     cout<<a;
     return 0;
