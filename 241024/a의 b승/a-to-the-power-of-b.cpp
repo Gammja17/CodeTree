@@ -14,11 +14,8 @@ int main() {
         for(int i=1; i<b; i++){
         a=prod*a;
     }
+    cout<<a;
     }
   
-
-    
-
-    cout<<a;
     return 0;
 }
