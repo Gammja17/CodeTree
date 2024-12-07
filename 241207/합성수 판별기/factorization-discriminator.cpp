@@ -16,7 +16,7 @@ int main() {
         
     }
     if(t==false)    cout<<'N';
-    else cout<<'C';
+    else if(t==true) cout<<'C';
 
     return 0;
 }
